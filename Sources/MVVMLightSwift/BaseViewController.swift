@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class BaseViewController<T>: UIViewController, ViewModelLocatorUIKit  {
+open class BaseViewController<T>: UIViewController, ViewModelLocatorUIKit  {
     
     var viewModel = BaseViewController<T>.connectedViewModel!
     
@@ -17,7 +17,7 @@ public class BaseViewController<T>: UIViewController, ViewModelLocatorUIKit  {
         // Do any additional setup after loading the view.
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         super.init(coder: coder)
     }
 

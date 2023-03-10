@@ -10,9 +10,9 @@ import Foundation
 
 protocol IBaseService: IServiceLocator where T == BaseService { }
 
-public class BaseService: IBaseService {
+open class BaseService: IBaseService {
     var isLoading: Bool
-    required init() {
+    required public init() {
         self.isLoading = false
     }
     

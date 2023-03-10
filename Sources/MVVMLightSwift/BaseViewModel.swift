@@ -10,14 +10,14 @@ import Combine
 import SwiftUI
 
 @available(iOS 13.0, *)
-public class BaseViewModel : ObservableObject {
+open class BaseViewModel : ObservableObject {
     
     @Published var isLoading: Bool = false
     class var isFromCache: Bool {
         return false
     }
     
-    required init() {
+    required public init() {
         self.onLoad()
     }
     
