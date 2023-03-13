@@ -9,9 +9,9 @@ import Foundation
 
 public class InstanceLocator<T:BaseService>: NSObject, IServiceLocator {
     
-    required override init() {
+    required public override init() {
         self.isLoading = false
     }
-    var isLoading: Bool
+    public var isLoading: Bool
 }
 

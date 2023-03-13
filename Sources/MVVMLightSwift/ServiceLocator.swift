@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol IServiceLocator {
+public protocol IServiceLocator {
     associatedtype T where T:IServiceLocator
     init()
     var isLoading: Bool { get set }
