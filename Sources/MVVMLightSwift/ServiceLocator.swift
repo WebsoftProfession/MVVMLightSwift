@@ -14,11 +14,11 @@ protocol IServiceLocator {
 }
 
 extension IServiceLocator {
-    static var instance: T {
+    public static var instance: T {
         return T.init()
     }
     
-    static var singletonInstance: T {
+    public static var singletonInstance: T {
         let serviceName = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String + "." + String(describing: T.self)
         return ServiceGenerator.services[serviceName] as! Self.T
     }

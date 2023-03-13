@@ -9,7 +9,7 @@ import UIKit
 
 open class BaseViewController<T>: UIViewController, ViewModelLocatorUIKit  {
     
-    var viewModel = BaseViewController<T>.connectedViewModel!
+    public var viewModel = BaseViewController<T>.connectedViewModel!
     
     public override func viewDidLoad() {
         super.viewDidLoad()

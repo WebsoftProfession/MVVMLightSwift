@@ -12,8 +12,8 @@ import SwiftUI
 @available(iOS 13.0, *)
 open class BaseViewModel : ObservableObject {
     
-    @Published var isLoading: Bool = false
-    class var isFromCache: Bool {
+    @Published public var isLoading: Bool = false
+    public class var isFromCache: Bool {
         return false
     }
     
