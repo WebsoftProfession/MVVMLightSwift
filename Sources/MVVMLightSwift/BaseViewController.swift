@@ -11,7 +11,7 @@ open class BaseViewController<T>: UIViewController, ViewModelLocatorUIKit  {
     
     public var viewModel = BaseViewController<T>.connectedViewModel!
     
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

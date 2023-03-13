@@ -13,7 +13,7 @@ import SwiftUI
 open class BaseViewModel : ObservableObject {
     
     @Published public var isLoading: Bool = false
-    public class var isFromCache: Bool {
+    open class var isFromCache: Bool {
         return false
     }
     

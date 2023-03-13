@@ -42,7 +42,7 @@ final class ServiceGenerator {
 }
 
 
-protocol ViewModelLocatorUIKit {
+public protocol ViewModelLocatorUIKit {
     associatedtype T
 }
 
@@ -64,7 +64,7 @@ extension ViewModelLocatorUIKit {
 
 
 @available(iOS 13.0, *)
-protocol ViewModelLocatorSwiftUI: View {
+public protocol ViewModelLocatorSwiftUI: View {
     associatedtype T
 }
 
