@@ -21,7 +21,7 @@ open class BaseViewModel : ObservableObject {
         self.onLoad()
     }
     
-    func onLoad(){
+    public func onLoad(){
         
     }
     
