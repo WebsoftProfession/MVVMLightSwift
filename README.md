@@ -17,7 +17,7 @@ iOS 13 & above
 
 # Installation
 
-MVVMLightSwift doesn't contain any external dependencies. WSCalendarViewSwift is available through Swift Package Manager.
+MVVMLightSwift doesn't contain any external dependencies. MVVMLightSwift is available through Swift Package Manager.
 
 ![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlightswift_installation.png?raw=true "")
 
