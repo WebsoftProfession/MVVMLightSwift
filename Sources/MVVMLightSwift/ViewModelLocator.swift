@@ -71,7 +71,7 @@ public protocol ViewModelLocatorSwiftUI: View {
 @available(iOS 13.0, *)
 extension ViewModelLocatorSwiftUI {
     
-    static var connectedViewModel: T? {
+    public static var connectedViewModel: T? {
         let nameofClass = String(describing: type(of: self));
         let regex = try! NSRegularExpression(pattern: #"(?<=\<)(.*?)(?=\>)"#, options: .caseInsensitive)
         if let match = regex.firstMatch(in: nameofClass, range: NSRange(nameofClass.startIndex..., in: nameofClass)) {
