@@ -1,8 +1,10 @@
-# MVVMLightSwift
+# MVVMLightSwift V(1.0.2)
 
 A light weight architecture pattern package. Easy to integrate and use.
 
 MVVMLightSwift works on Model, ViewModel, ViewModelLocator. It can be integrated with SwiftUI & UIKit.
+
+
 
 <a href="https://github.com/apple/swift-package-manager" alt="MVVMLightSwift on Swift Package Manager" title="MVVMLightSwift on Swift Package Manager"><img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg" /></a>
 
