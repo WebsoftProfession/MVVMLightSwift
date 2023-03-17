@@ -12,6 +12,8 @@ protocol IBaseService: IServiceLocator where T == BaseService { }
 
 open class BaseService: IBaseService {
     
+    public typealias T = BaseService
+    
     public var isLoading: Bool
     
     required public init() {
