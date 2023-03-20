@@ -1,8 +1,10 @@
-# MVVMLightSwift
+# MVVMLightSwift V(1.0.2)
 
 A light weight architecture pattern package. Easy to integrate and use.
 
 MVVMLightSwift works on Model, ViewModel, ViewModelLocator. It can be integrated with SwiftUI & UIKit.
+
+
 
 <a href="https://github.com/apple/swift-package-manager" alt="MVVMLightSwift on Swift Package Manager" title="MVVMLightSwift on Swift Package Manager"><img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg" /></a>
 
@@ -52,13 +54,12 @@ MVVMLightSwift doesn't contain any external dependencies. MVVMLightSwift is avai
 
 ![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_viewmodel2.png?raw=true "")
 
-
 # SwiftUI Usage
 
 
 ## Create View with BaseView - SwiftUI
 
-![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_view1.png?raw=true "")
+![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_view1_new.png?raw=true "")
 
 ## Access view model instance anywhere in View - SwiftUI
 
@@ -67,7 +68,7 @@ MVVMLightSwift doesn't contain any external dependencies. MVVMLightSwift is avai
 
 ## Make observable view model instance in View - SwiftUI
 
-![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_view1.png?raw=true "")
+![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_view1_new.png?raw=true "")
 
 
 
@@ -81,6 +82,10 @@ MVVMLightSwift doesn't contain any external dependencies. MVVMLightSwift is avai
 ## Access view model instance anywhere in controller - UIKit
 
 ![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_controller2.png?raw=true "")
+
+
+
+
 
 
 # Author
