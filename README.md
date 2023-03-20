@@ -54,6 +54,23 @@ MVVMLightSwift doesn't contain any external dependencies. MVVMLightSwift is avai
 
 ![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_viewmodel2.png?raw=true "")
 
+# SwiftUI Usage
+
+
+## Create View with BaseView - SwiftUI
+
+![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_view1_new.png?raw=true "")
+
+## Access view model instance anywhere in View - SwiftUI
+
+![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_view2.png?raw=true "")
+
+
+## Make observable view model instance in View - SwiftUI
+
+![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_view1_new.png?raw=true "")
+
+
 
 # UIKit Usage
 
@@ -67,21 +84,6 @@ MVVMLightSwift doesn't contain any external dependencies. MVVMLightSwift is avai
 ![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_controller2.png?raw=true "")
 
 
-# SwiftUI Usage
-
-
-## Create View with BaseView - SwiftUI
-
-![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_view1.png?raw=true "")
-
-## Access view model instance anywhere in View - SwiftUI
-
-![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_view2.png?raw=true "")
-
-
-## Make observable view model instance in View - SwiftUI
-
-![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_view1.png?raw=true "")
 
 
 
