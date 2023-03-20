@@ -55,6 +55,18 @@ MVVMLightSwift doesn't contain any external dependencies. MVVMLightSwift is avai
 ![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_viewmodel2.png?raw=true "")
 
 
+# UIKit Usage
+
+## Create viewcontroller with BaseViewController - UIKit
+
+![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_controller1.png?raw=true "")
+
+
+## Access view model instance anywhere in controller - UIKit
+
+![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_controller2.png?raw=true "")
+
+
 # SwiftUI Usage
 
 
@@ -72,17 +84,6 @@ MVVMLightSwift doesn't contain any external dependencies. MVVMLightSwift is avai
 ![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_view1.png?raw=true "")
 
 
-
-# UIKit Usage
-
-## Create viewcontroller with BaseViewController - UIKit
-
-![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_controller1.png?raw=true "")
-
-
-## Access view model instance anywhere in controller - UIKit
-
-![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_controller2.png?raw=true "")
 
 
 # Author
