@@ -9,7 +9,7 @@ import Foundation
 
 
 public protocol BaseView: ViewModelLocatorSwiftUI {
-    var viewModel: BaseViewModel { get }
+    var viewModel: T { get }
 }
 
 extension BaseView {
