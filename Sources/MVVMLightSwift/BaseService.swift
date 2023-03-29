@@ -21,7 +21,7 @@ open class BaseService: NSObject, IBaseService {
     }
     
     public func registerSingleton() {
-        ServiceGenerator.registerService(serviceName: String(describing: self), service: self)
+        ServiceGenerator.registerService(serviceName: String(describing: type(of: self)), service: self)
     }
 }
 
