@@ -21,7 +21,8 @@ open class BaseService: NSObject, IBaseService {
     }
     
     public func registerSingleton() {
-        ServiceGenerator.registerService(serviceName: String(describing: type(of: self)), service: self)
+        let serviceName = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String + "." + String(describing: type(of: self))
+        ServiceGenerator.registerService(serviceName: serviceName, service: self)
     }
 }
 
