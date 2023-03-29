@@ -10,13 +10,13 @@ import Foundation
 
 protocol IBaseService: IServiceLocator where T == BaseService { }
 
-open class BaseService: IBaseService {
+open class BaseService: NSObject, IBaseService {
     
     public typealias T = BaseService
     
     public var isLoading: Bool
     
-    required public init() {
+    required public override init() {
         self.isLoading = false
     }
     
