@@ -9,12 +9,21 @@ MVVMLightSwift works on Model, ViewModel, ViewModelLocator. It can be integrated
 <a href="https://github.com/apple/swift-package-manager" alt="MVVMLightSwift on Swift Package Manager" title="MVVMLightSwift on Swift Package Manager"><img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg" /></a>
 
 
+# Key Features
+
+- Automatic view model binding
+- Load view model from cache
+- Compatible with SwiftUI & UIKit
+- Code optimization is easy
+- Unit Testing is easy
+- Clean Architecture Pattern
+- Introduced by iosexample
+
 # Requirements
 
 Swift 5.x
 Xcode 12.x
 iOS 13 & above
-
 
 
 # Installation
