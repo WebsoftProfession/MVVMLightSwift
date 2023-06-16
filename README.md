@@ -18,6 +18,7 @@ MVVMLightSwift works on Model, ViewModel, ViewModelLocator. It can be integrated
 - Unit Testing is easy
 - Clean Architecture Pattern
 - Introduced by iosexample
+- Fast & Smooth app user experience
 
 # Apps using MVVMLightSwift
 
