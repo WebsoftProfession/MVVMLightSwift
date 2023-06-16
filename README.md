@@ -19,6 +19,10 @@ MVVMLightSwift works on Model, ViewModel, ViewModelLocator. It can be integrated
 - Clean Architecture Pattern
 - Introduced by iosexample
 
+# Apps using MVVMLightSwift
+
+- [Dot Feeds](https://apps.apple.com/us/app/dot-feeds/id6450212433)
+
 # Requirements
 
 Swift 5.x
