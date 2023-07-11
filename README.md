@@ -80,7 +80,7 @@ MVVMLightSwift doesn't contain any external dependencies. MVVMLightSwift is avai
 ![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_view2.png?raw=true "")
 
 
-## Make observable view model instance in View - SwiftUI
+## Make StateObject & ObservedObject view model instance in View - SwiftUI
 
 ![Alt text](https://github.com/WebsoftProfession/MVVMLightSwift/blob/main/mvvmlight_view1_new.png?raw=true "")
 
