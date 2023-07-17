@@ -13,6 +13,7 @@ MVVMLightSwift works on Model, ViewModel, ViewModelLocator. It can be integrated
 
 - Automatic view model binding
 - Load view model from cache
+- In-bult isLoading property to show/hide loader on view
 - Compatible with SwiftUI & UIKit
 - Code optimization is easy
 - Unit Testing is easy
