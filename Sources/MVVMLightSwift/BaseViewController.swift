@@ -20,10 +20,10 @@ open class BaseViewController<T>: UIViewController, ViewModelLocatorUIKit  {
     required public init?(coder: NSCoder) {
         super.init(coder: coder)
     }
-    
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-    }
+//
+//    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+//        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+//    }
 
     /*
     // MARK: - Navigation
