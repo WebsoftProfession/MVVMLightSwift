@@ -4,7 +4,7 @@ A light weight architecture pattern package. Easy to integrate and use.
 
 MVVMLightSwift works on Model, ViewModel, ViewModelLocator. It can be integrated with SwiftUI & UIKit.
 
-
+Example Project: - [WSMVVMLightSwiftExample](https://github.com/WebsoftProfession/WSMVVMLightSwiftExample)
 
 <a href="https://github.com/apple/swift-package-manager" alt="MVVMLightSwift on Swift Package Manager" title="MVVMLightSwift on Swift Package Manager"><img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg" /></a>
 
@@ -20,10 +20,17 @@ MVVMLightSwift works on Model, ViewModel, ViewModelLocator. It can be integrated
 - Clean Architecture Pattern
 - Introduced by iosexample
 - Fast & Smooth app user experience
+- Integration Example included below
 
 # Apps using MVVMLightSwift
 
 - [Dot Feeds](https://apps.apple.com/us/app/dot-feeds/id6450212433)
+
+
+# Example Project using MVVMLightSwift with SwiftUI & UIKit integration
+
+- [WSMVVMLightSwiftExample](https://github.com/WebsoftProfession/WSMVVMLightSwiftExample)
+
 
 # Requirements
 
