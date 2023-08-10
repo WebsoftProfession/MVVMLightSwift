@@ -1,4 +1,4 @@
-# MVVMLightSwift V(1.0.5)
+# MVVMLightSwift V(1.0.8)
 
 A light weight architecture pattern package. Easy to integrate and use.
 
