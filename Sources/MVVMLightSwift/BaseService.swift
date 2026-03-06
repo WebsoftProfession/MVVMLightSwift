@@ -10,7 +10,7 @@ import Foundation
 
 protocol IBaseService: IServiceLocator where T == BaseService { }
 
-nonisolated open class BaseService: NSObject, IBaseService {
+@MainActor open class BaseService: NSObject, ObservableObject, IBaseService {
     
     public typealias T = BaseService
     
