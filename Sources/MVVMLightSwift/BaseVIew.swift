@@ -13,7 +13,7 @@ public protocol BaseView: ViewModelLocatorSwiftUI {
 }
 
 extension BaseView {
-    public static var bindingViewModel: T {
+    @MainActor public static var bindingViewModel: T {
         Self.connectedViewModel!
     }
 }

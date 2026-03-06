@@ -10,6 +10,7 @@ import Combine
 import SwiftUI
 
 @available(iOS 13.0, *)
+@MainActor
 open class BaseViewModel : ObservableObject {
     
     @Published public var isLoading: Bool = false

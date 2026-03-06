@@ -14,6 +14,7 @@ fileprivate final class ModelGenerator {
     @available(iOS 13.0, *)
     static var models = [String:BaseViewModel]()
     @available(iOS 13.0, *)
+    @MainActor
     static func generateModel(viewModelName: String) -> BaseViewModel? {
         let namespace = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String
         let object: AnyClass? = NSClassFromString("\(namespace).\(viewModelName)") ?? nil
@@ -47,7 +48,7 @@ public protocol ViewModelLocatorUIKit {
 }
 
 extension ViewModelLocatorUIKit {
-    static var connectedViewModel: T? {
+    @MainActor static var connectedViewModel: T? {
         let nameofClass = String(describing: self);
         let regex = try! NSRegularExpression(pattern: #"(?<=\<)(.*?)(?=\>)"#, options: .caseInsensitive)
         if let match = regex.firstMatch(in: nameofClass, range: NSRange(nameofClass.startIndex..., in: nameofClass)) {
@@ -71,7 +72,7 @@ public protocol ViewModelLocatorSwiftUI: View {
 @available(iOS 13.0, *)
 extension ViewModelLocatorSwiftUI {
     
-    public static var connectedViewModel: T? {
+    @MainActor public static var connectedViewModel: T? {
         let nameofClass = String(describing: type(of: self));
         let regex = try! NSRegularExpression(pattern: #"(?<=\<)(.*?)(?=\>)"#, options: .caseInsensitive)
         if let match = regex.firstMatch(in: nameofClass, range: NSRange(nameofClass.startIndex..., in: nameofClass)) {
